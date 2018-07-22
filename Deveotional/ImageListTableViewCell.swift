@@ -9,7 +9,7 @@
 import UIKit
 
 class ImageListTableViewCell: UITableViewCell {
-
+@IBOutlet weak var downloadImageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

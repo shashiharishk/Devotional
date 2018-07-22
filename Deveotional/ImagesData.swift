@@ -7,3 +7,12 @@
 //
 
 import Foundation
+struct  ImageDta:Codable
+{
+    var totalHits:Int?
+    var hits:[Hits]
+}
+
+struct Hits: Codable{
+    var previewURL:String?
+}
